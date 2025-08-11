@@ -38,6 +38,10 @@ A VS Code extension that adds a run button to execute the current file in the te
 2. **Click the run button** (▶️) in the editor toolbar, or
 3. **Right-click** in the editor and select "Run File with Args"
 
+## Support Custom Format
+- Update `editor/title` and `editor/context` inside `contributes>menus` of `package.json` with your custom extension.
+- Update `getRunCommand()` in `extesnion.ts` and add support for your custom extension.
+
 ## Example
 
 For a Python file `calculator.py`:
